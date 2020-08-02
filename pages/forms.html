@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Computer Science</title>
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet"  href="../styles/normalize.css">
+        <link rel="stylesheet" href="../styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+    </head>
+    <body>
+    <header>
+        <img class="logo-pos" src="../images/logo.jpg">
+        <h5>Computer Science </h5>
+        <h2>Auburn University Montgomery</h2>
+    </header>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="../index.html" class="current">Home</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="forms.html">Teaching Assistant</a></li>
+                    <li><a href="gpa.html">GPA</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        
+         <main>
+            <section>
+                <form name="myform" action="survey_data.html" method="get">
+                    <h1>Student Details</h1>
+                    </br>
+                    <label for="studentname">Name:</label>
+                    <input type="text" name="studentname" id="studentname"><br>
+                    
+                    </br>
+                    <label for="studentid">ID:</label>
+                    <input type="Five digits" name="studentid" id="studentid"><br>
+                    
+                    </br>
+                    <label for="gender">Gender:</label> </br>
+                    <label class="choice" for="r1">Male</label>
+                    <input type="radio" name="gender" id="r1" value="male"> </br> 
+
+                    <label class="choice" for="r2">female</label>
+                    <input type="radio" name="gender" id="r2" value="female"> </br>
+
+                    </br>
+                    <label for="gpa">GPA:</label>
+                    <input type="digit" name="gpa" id="gpa"><br>
+
+                    </br>
+                    <label for="sdate">Submission date:</label>
+                    <input type="date" name="sdate" id="sdate"><br>
+                    
+                    </br>
+                    <label for="comment">Comments:</label>
+                    <input rows="4" cols="50" type="text" name="comment" id="comment"><br>
+
+                    </br>
+                    </br>
+                    <input type="submit" name="button" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                    </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2020 Rajasekhar contact admin@aum.com</p>
+        </footer>
+    </body>
+</html>
+
+            
+            
